@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <div className="h-[70%]">
-          <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2  h-[80%] mt-[5%] border-none">
+          <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2  h-[80%] mt-[12%] border-none">
             <div className="bg-[#bebebe] h-[40rem] text-center">
            <div className="mt-[10%] text-black gap-[10%] ">
              <h1 className="text-[30px] md:text-[50px] mx-[10rem]" style={{fontFamily:'fantasy'}}>

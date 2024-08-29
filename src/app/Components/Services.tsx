@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 function Services() {
@@ -11,7 +12,7 @@ function Services() {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[4rem] mt-[4rem] text-white">
       <div>
-          <div className="bg-[#F6583C] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
+          <div className="bg-[#e97561] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
             <h2 className="text-[25px]">ARCHITECTING </h2> <br />
             <img src="aac.jpeg"
             className="h-[10rem] ml-[30%]"
@@ -21,7 +22,7 @@ function Services() {
       </div>
       
       <div>
-        <div className="bg-[#F6583C] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
+        <div className="bg-[#e97561] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
         <h2 className="text-[25px]">DEPLOYMENT</h2> <br />
         <img src="ggg.jpeg"
             className="h-[10rem] ml-[30%]"
@@ -31,7 +32,7 @@ function Services() {
             </div>
 
       <div>
-      <div className="bg-[#F6583C] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
+      <div className="bg-[#e97561] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase font-semibold text-center p-[1rem]">
        <h2 className="text-[25px] ">SUPPORT</h2>
       <br />
       <img src="eee.jpeg"
