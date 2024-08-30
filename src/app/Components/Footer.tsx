@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-white md:pt-[2rem] pb-[5rem]">
-        <div className="text-black text-center">
+    <div className="bg-white pt-2  md:pt-[2rem]">
+        <div className="text-black text-center my-10 md:my-5">
             <p className="mb-2 mt-3">+91 120 421 7213</p>
             <p className="mb-2">sales@keenable.in</p>
             <p className="mb-7">B149, Ground Floor, Sector 63, Noida, India - 201301</p>

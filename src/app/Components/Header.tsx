@@ -33,10 +33,10 @@ function Header() {
           </div>
         </div>
 
-        <div className="h-[40rem] bg-white">
+        <div className="h-[30rem] md:h-[40rem] bg-white">
           <div>
             <img
-              className="h-[40rem] w-[100%] "
+              className="h-[30rem] md:h-[40rem] w-[100%] "
               src="pikaso_texttoimage_Doing-Business-the-Open-Way.jpeg"
             />
           </div>
