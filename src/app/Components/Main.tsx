@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className=" bg-[#944141] my-2 md:my-20">
+    <div className=" bg-[#944141] my-10 md:my-20">
       <div className=" grid-cols-1 mx-auto grid lg:grid-cols-2">
       <div className="">
         <img className="" src="fotor-ai-2024082818012.jpg" alt="" />
