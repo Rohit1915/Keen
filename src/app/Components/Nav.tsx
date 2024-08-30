@@ -19,7 +19,7 @@ function Nav() {
           <div className="ml-4 mt-4">
             {" "}
             <h1 className=" text-xl sm:text-2xl md:text-3xl text-white ">
-              KEEN AND ABLE
+               KEEN AND ABLE
             </h1>
             <span className="text-white text-sm md:text-lg">
               Always Been Open!
