@@ -1,14 +1,13 @@
-
 import React from 'react'
 
 function Services() {
   return (
     <div className="bg-[#9db0b1] pt-[4rem] md:pt-[6rem] pb-[5rem]" style={{fontFamily:'fantasy'}}>
     <h1 className="text-center text-white text-[28px] sm:text-[33px] md:text-2xl font-bold uppercase">OUR <span className="text-yellow-400">SERVICES</span></h1>
-    <p className="mx-5 text-center md:text-center mt-[2rem] text-xl text-black">Here’s What We Think We Provide Today. And We Have Always Been Open To New Areas</p>
+    <p className="mx-5 text-center md:text-center mt-[2rem] text-base md:text-xl text-black">Here’s What We Think We Provide Today. And We Have Always Been Open To New Areas</p>
     <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 mt-[5%] border-none ">
         <img className="h-[350px] w-[700px] hidden md:block" src="aerial-view-business-team.jpg" alt="" />
-        <img src="Screenshot from 2024-08-28 22-01-28.png" alt="" />
+        <img src="plant.png" alt="" />
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[4rem] mt-[4rem] text-white">
       <div>
