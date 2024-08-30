@@ -14,7 +14,7 @@ function Header() {
               KEEN AND ABLE
             </h1>
             <span
-              className="text-2xl"
+              className="text-lg md:text-xl"
               >
               Doing Business the Open Way
             </span>
