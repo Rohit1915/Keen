@@ -3,7 +3,7 @@ import React from 'react'
 
 function Nav() {
   return (
-   <div className=" fixed top-0 w-[100%] h-[15vh] bg-[#0e245385] " 
+   <div className=" w-[100%] h-[15vh] bg-[#0e245385] " 
    style={{fontFamily:'fantasy'}}> 
    <div className="flex items-center justify-between w-[90%] mx-auto h-[100%]">
    <div className="flex">
