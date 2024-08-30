@@ -14,7 +14,7 @@ function Services() {
           <div className="bg-[#e97561] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase text-center p-[1rem]">
             <h2 className="text-xl">ARCHITECTING </h2> <br />
             <img src="aac.jpeg"
-            className="h-[10rem] ml-18 md:ml-[30%]"
+            className="h-[10rem] mx-16 md:ml-[30%]"
             alt="" /> <br />
             <p> A well thought out architecture helps our customers be in control of their deployments long after we complete our work. With our experience of working with varied customer scenarios across the world, we provide software architecting services to help design the software keeping the bigger picture in mind.  </p>
           </div>
@@ -24,7 +24,7 @@ function Services() {
         <div className="bg-[#e97561] hover:scale-110 transform transition-all duration-300 hover:-rotate-10 uppercase text-center p-[1rem]">
         <h2 className="text-xl">DEPLOYMENT</h2> <br />
         <img src="ggg.jpeg"
-            className="h-[10rem] ml-18 md:ml-[30%]"
+            className="h-[10rem] mx-16 md:ml-[30%]"
             alt="" /> <br />
             <p> We provide deployment services for almost any technology in Open Source realm. This list has been evergrowing over the years. Our motto being simple - if we do not know it, we learn it. After all, we have always been Open! We are always willing to walk the path with our customers on their Open Source deployment journey.</p>
             </div>
@@ -35,7 +35,7 @@ function Services() {
        <h2 className="text-xl ">SUPPORT</h2>
       <br />
       <img src="eee.jpeg"
-            className="h-[10rem] ml-18 md:ml-[30%]"
+            className="h-[10rem] mx-16 md:ml-[30%]"
             alt="" /> <br />
             <p> For customers requiring long term support for their Open Source technology deployments, we help form teams to manage the deployments. All of this with an open mind. We help our customers break their mould of limitation by helping them deploy Open Source technologies in newer areas as well.</p>
       </div>
