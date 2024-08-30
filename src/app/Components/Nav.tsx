@@ -47,7 +47,7 @@ function Nav() {
 
       {isMenuOpen && (
         <div className="absolute right-0 p-2">
-          <ul className="bg-yellow-400 flex flex-col gap-1 p-2 w-20">
+          <ul className="bg-gray-700 flex flex-col gap-1 p-2 w-40 text-black text-xl">
             <Link href="/">
               <li className="hover:text-white hover:underline">Home</li>
             </Link>
