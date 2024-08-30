@@ -8,15 +8,15 @@ function About() {
       <div className="">
         <img className="" src="" alt="" />
       </div>
-      <div className=" text-black flex flex-col h-full my-20 mx-10 md:h-96 md:my-40 ">
-      <h1 className=" text-3xl md:mx-40 " style={{fontFamily:'fantasy'}}>
+      <div className=" text-black flex flex-col h-full my-20 mx-10 md:h-96 md:my-40 " style={{fontFamily:'fantasy'}}>
+      <h1 className=" text-3xl md:mx-40 ">
             
              OUR BACKGROUND
             </h1> 
-            <span className="md:mx-40 text-2xl mt-8" style={{fontFamily:'fantasy'}} >
+            <span className="md:mx-40 text-2xl mt-8">
             How We Got Here
             </span>
-            <div className="md:mx-40" style={{fontFamily:'fantasy'}}>
+            <div className="md:mx-40" >
             <p className="mt-10">
             Trying to reach out for the unachievable and what lies beyond us has brought us where we are today. Be it our first Linux cluster for SAP deployment in 2002, or our first deployment for Red Hat's integration suite Fuse in 2012 or for that matter our first Openstack deployment in 2015.
             </p> 
