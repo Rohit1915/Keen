@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookSquare } from "react-icons/fa";
+import { ImFacebook2 } from "react-icons/im";
 
 function Footer() {
   return (
@@ -11,6 +11,9 @@ function Footer() {
             <p className="mb-7">©2024 by Keen and Able Computers Pvt. Ltd.</p>
             <p className="mb-1 text-[12px]">All Trademarks and Logos used throughout the site are property of their respective owners</p>
             <p className="mb-1 text-[12px]">All images used on the website have been used courtesy Pixabay.com</p>
+        </div>
+        <div>
+        <ImFacebook2 className="bg-black"/>
         </div>
     </div>
   )

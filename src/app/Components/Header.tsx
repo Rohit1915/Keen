@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
               Doing Business the Open Way
             </span>
               </div>
-              <div className="mt-8 mx-10 md:mx-20">
+              <div className="mt-8 mx-10 md:mx-32">
  
             <p>
               Our amazing Open Source journey started in early 2000s. And what a
@@ -37,7 +38,7 @@ function Header() {
           <div>
             <img
               className="h-[30rem] md:h-[40rem] w-[100%] "
-              src="pikaso_texttoimage_Doing-Business-the-Open-Way.jpeg"
+              src="nfjf.jpeg"
             />
           </div>
         </div>

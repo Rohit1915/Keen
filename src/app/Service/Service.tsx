@@ -5,7 +5,7 @@ function Service() {
     <div className="bg-[#9db0b1] pt-[4rem] md:pt-[6rem] pb-[5rem]" style={{fontFamily:'fantasy'}}>
     <h1 className="text-center text-white text-xl md:text-4xl">SERVICES</h1>
     <p className="mx-5 text-center md:text-center mt-[2rem] text-base md:text-xl text-black">Openly Trying To Exceed Your Expectations</p>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full items-center gap-[4rem] mt-[4rem] text-black">
+    <div className="grid grid-cols-1 lg:grid-cols-3 w-full items-center gap-[4rem] mt-[4rem] text-black">
   
           <div className="bg-[#a1b6b8]">
             <img src="sdf.jpeg"

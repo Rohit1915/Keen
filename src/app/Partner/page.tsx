@@ -8,6 +8,8 @@ function page() {
   return (
     <>
     <Nav />
+    <Partner />
+    <Footer />
     </>
   )
 }
