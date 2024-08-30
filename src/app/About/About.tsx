@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
     <div className=" bg-[#ebc3c3]">
       <div className=" grid-cols-1 mx-auto grid lg:grid-cols-2">
       <div className="">
-        <img className="" src="" alt="" />
+        <Image src="" alt="" />
       </div>
       <div className=" text-black flex flex-col h-full my-20 mx-10 md:h-96 md:my-40 " style={{fontFamily:'fantasy'}}>
       <h1 className=" text-3xl md:mx-40 ">
