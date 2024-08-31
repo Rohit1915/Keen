@@ -10,7 +10,7 @@ function Services() {
     Here’s What We Think We Provide Today. And We Have Always Been Open To New Areas.
   </p>
   
-  <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 mt-[5%] border-none gap-5 lg:gap-10">
+  <div className="w-[80%] grid mx-auto lg:grid-cols-2 mt-[5%] border-none gap-5 lg:gap-10">
     <img className="h-[350px] w-full lg:h-[400px] lg:w-auto hidden md:block" src="aerial-view-business-team.jpg" alt="Business Team" />
     <img className="h-auto w-full lg:h-[400px]" src="plant.png" alt="Plant" />
   </div>
