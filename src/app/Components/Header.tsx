@@ -10,19 +10,19 @@ function Header() {
             <div>
 
             <h1
-              className="text-2xl md:text-3xl mb-10"
+              className="text-2xl md:text-3xl mb-6 md:mb-10"
               >
               KEEN AND ABLE
             </h1>
             <span
-              className="text-lg md:text-xl"
+              className="text-xl md:text-2xl"
               >
               Doing Business the Open Way
             </span>
               </div>
               <div className="mt-8 mx-10 md:mx-32">
  
-            <p>
+            <p className="text-sm md:text-lg">
               Our amazing Open Source journey started in early 2000s. And what a
               ride it has been. We did not imagine that we would have such
               widespread adoption and deployment of Open Source technologies

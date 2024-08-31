@@ -15,7 +15,7 @@ function Main() {
             <span className="md:mx-40 text-xl md:text-2xl mt-4 md:mt-8 mb-5 md:mb-10" >
             Our Story
             </span>
-            <div className="md:mx-40 text-xs md:text-base space-y-4">
+            <div className="md:mx-40 text-sm md:text-lg space-y-4">
             <p >
             Keen and Able started as a college dream in the mind of a few youngsters who just wished to have something to call their own. Open Source happened by chance. But has stuck for long. Over the years, we have dabbled in many associated Open Source technologies and successfully helped our customers adopt them.
             </p> 
