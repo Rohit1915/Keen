@@ -7,7 +7,7 @@ function Partner() {
       <div className="my-16">
         <img className="" src="pngwing.com.png" alt="" />
       </div>
-      <div className=" text-black flex flex-col h-full my-20 mx-10 md:h-96 md:my-40 ">
+      <div className=" text-black flex flex-col h-full my-20 mx-8 md:h-96 md:my-40 "style={{fontFamily:'fantasy'}}>
       <h1 className=" text-3xl md:mx-40 mb-10 text-center " >
           
            PARTNERS
@@ -15,7 +15,7 @@ function Partner() {
            <p className=" md:mx-40">
              We would have never been able to reach the wider world had we not had our partners to support and work with us. Following are few of our partners we work closely with
              </p>
-           <span className="md:mx-40 text-2xl mt-8" >
+           <span className="md:mx-40 text-xl md:text-2xl mt-8" >
             
              TECHNOLOGY PARTNERS
            </span>

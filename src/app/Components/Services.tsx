@@ -2,8 +2,8 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className="bg-[#9db0b1] pt-[4rem] md:pt-[6rem] pb-5 md:pb-[5rem]" style={{fontFamily:'fantasy'}}>
-    <h1 className="text-center text-white text-[28px] sm:text-[33px] text-2xl md:text-3xl font-bold uppercase">OUR <span className="text-yellow-400">SERVICES</span></h1>
+    <div className="bg-[#cfdbdb] pt-[4rem] md:pt-[6rem] pb-5 md:pb-[5rem]" style={{fontFamily:'fantasy'}}>
+    <h1 className="text-center text-black text-[28px] sm:text-[33px] text-2xl md:text-3xl font-bold uppercase">OUR <span className="text-yellow-600">SERVICES</span></h1>
     <p className="mx-5 text-center md:text-center mt-[2rem] text-base md:text-xl text-black">Here’s What We Think We Provide Today. And We Have Always Been Open To New Areas</p>
     <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 mt-[5%] border-none ">
         <img className="h-[350px] w-[700px] hidden md:block" src="aerial-view-business-team.jpg" alt="" />
@@ -11,7 +11,7 @@ function Services() {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto items-center gap-5 md:gap-[4rem] mt-5 md:mt-[4rem] text-black">
       <div>
-          <div className="bg-slate-400 md:bg-[#e97561] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem]">
+          <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem]">
             <h2 className=" text-xl">ARCHITECTING </h2> <br />
             <img src="aac.jpeg"
             className="h-[8rem] md:h-[10rem] mx-20 md:ml-[30%]"
@@ -21,7 +21,7 @@ function Services() {
       </div>
       
       <div>
-        <div className="bg-slate-400 md:bg-[#e97561] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10  md:h-[24rem] text-center p-[1rem]">
+        <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10  md:h-[24rem] text-center p-[1rem]">
         <h2 className="text-xl">DEPLOYMENT</h2> <br />
         <img src="ggg.jpeg"
             className="h-[8rem] md:h-[10rem] mx-20 md:ml-[30%]"
@@ -31,7 +31,7 @@ function Services() {
             </div>
 
       <div>
-      <div className="bg-slate-400 md:bg-[#e97561] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[24rem] text-center p-[1rem]">
+      <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[24rem] text-center p-[1rem]">
        <h2 className="text-xl ">SUPPORT</h2>
       <br />
       <img src="eee.jpeg"

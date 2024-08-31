@@ -12,20 +12,20 @@ function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="w-full bg-[#c5cbd885]" style={{ fontFamily: "fantasy" }}>
+    <div className="w-full bg-white" style={{ fontFamily: "fantasy" }}>
       <div className="flex items-center justify-between mx-2">
         <div className="flex">
-          <img src="logo.webp" alt="Logo_KNA.png" className="h-20 md:h-28" />
+          <img src="logo.webp" alt="Logo_KNA.png" className="h-20 md:h-28 p-1 md:p-2" />
           <div className="ml-4 mt-4">
-            <h1 className="text-xl sm:text-2xl md:text-3xl text-white">
+            <h1 className="text-xl sm:text-2xl md:text-3xl text-black">
               KEEN AND ABLE
             </h1>
-            <span className="text-white text-sm md:text-lg">
+            <span className="text-black text-sm md:text-lg">
               Always Been Open!
             </span>
           </div>
         </div>
-        <ul className="hidden md:flex justify-center items-center gap-8 text-lg mr-10 text-white">
+        <ul className="hidden md:flex justify-center items-center gap-8 text-lg mr-10 text-black">
           <Link href="/">
             <li className="hover:text-yellow-600 hover:font-bold">Home</li>
           </Link>
@@ -57,13 +57,13 @@ function Nav() {
         </ul>
 
         <div className="block md:hidden" onClick={toggleMenu}>
-          <GiHamburgerMenu className="text-3xl" />
+          <GiHamburgerMenu className="text-3xl text-black" />
         </div>
       </div>
 
       {isMenuOpen && (
         <div className="absolute top-0 left-0 w-full h-full bg-gray-500 bg-opacity-50 flex justify-center items-center z-50">
-          <ul className="bg-gray-700 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-white text-2xl">
+          <ul className="bg-gray-700 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-black text-2xl">
             <Link href="/">
               <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                 Home
