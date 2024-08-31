@@ -7,8 +7,8 @@ function Footer() {
   return (
     <div className="bg-black py-2 md:py-[2rem]">
       <div className="ml-72 md:ml-20 flex">
-       <Link href="https://www.facebook.com/Alwaysbeenopen/"> <ImFacebook2 className="mr-4 text-3xl md:text-5xl" /> </Link>
-       <Link href="https://www.linkedin.com/company/keenable"> <IoLogoLinkedin className="text-[2rem] md:text-[3.4rem]" /> </Link>
+       <Link href="https://www.facebook.com/Alwaysbeenopen/" target="_blank"> <ImFacebook2 className="mr-4 text-3xl md:text-4xl" /> </Link>
+       <Link href="https://www.linkedin.com/company/keenable" target="_blank"> <IoLogoLinkedin className="text-[2rem] md:text-[2.8rem]" /> </Link>
       </div>
       <div className="text-white text-center mt-0">
         <p className="mb-2 mt-3">+91 120 421 7213</p>
