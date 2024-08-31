@@ -3,8 +3,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="">
-      <div className="mx-0 md:mx-10 grid-cols-1 grid lg:grid-cols-2 mt-0 mb-0 my-2 md:my-20" style={{ fontFamily: "fantasy" }}>
+    <div className="bg-[#bebebe]">
+      <div className=" grid-cols-1 grid lg:grid-cols-2 " style={{ fontFamily: "fantasy" }}>
         <div className="bg-[#bebebe] flex flex-col justify-center  items-center ">
           <div className=" text-black flex flex-col  text-center h-full md:h-96 my-16">
             <div>
@@ -34,9 +34,9 @@ function Header() {
           </div>
         </div>
 
-        <div className="h-[30rem] md:h-[40rem] bg-white hidden md:block">
+        <div className=" my-7 mx-32 hidden md:block">
             <img
-              className="h-[30rem] md:h-[40rem] w-[100%] "
+              className=" md:h-[30rem] rounded-full"
               src="nfjf.jpeg"
             />
         </div>

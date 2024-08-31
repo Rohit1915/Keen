@@ -14,7 +14,7 @@ function Nav() {
 
 
   return (
-    <div className="w-full  bg-[#557ed685] " style={{ fontFamily: "fantasy" }}>
+    <div className="w-full  bg-[#c5cbd885] " style={{ fontFamily: "fantasy" }}>
       <div className="flex items-center justify-between mx-2">
         <div className="flex">
           <img src="logo.webp" alt="Logo_KNA.png" className=" h-20 md:h-28" />
@@ -30,16 +30,16 @@ function Nav() {
         </div>
         <ul className="hidden md:flex justify-center items-center gap-8 text-lg mr-10 text-white ">
           <Link href="/">
-            <li className="hover:text-white hover:underline">Home</li>
+            <li className="hover:text-yellow-600 hover:font-bold">Home</li>
           </Link>
           <Link href="/About">
-            <li className="hover:text-white hover:underline">About</li>
+            <li className="hover:text-yellow-600 hover:font-bold">About</li>
           </Link>
           <Link href="/Service">
-            <li className="hover:text-white hover:underline">Services</li>
+            <li className="hover:text-yellow-600 hover:font-bold">Services</li>
           </Link>
-          <li className="hover:text-white hover:underline">Partners</li>
-          <li className="hover:text-white hover:underline">FAQ</li>
+         <Link href="/Partner"> <li className="hover:text-yellow-600 hover:font-bold">Partners</li> </Link>
+          <li className="hover:text-yellow-600 hover:font-bold">FAQ</li>
           <Link href="https://www.keenable.in/blog"> <RiLoginBoxFill title="Login" className="text-3xl hover:text-red-700"/></Link>
          <Link href="https://www.google.com/maps/place/Keen+%26+Able+Computers+Private+Limited/@28.615043,77.377373,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce5600e9000bf:0x5195188f982b98a9!8m2!3d28.615043!4d77.377373!16s%2Fg%2F11c2j6_xp9?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
           <IoLocation title="Location" className="text-3xl hover:text-red-700"/> </Link>
@@ -54,16 +54,16 @@ function Nav() {
         <div className="text-center p-2">
           <ul className="bg-gray-700 flex flex-col gap-1 p-2 text-black text-xl">
             <Link href="/">
-              <li className="hover:text-white hover:underline">Home</li>
+              <li className="hover:text-yellow-600 hover:font-bold">Home</li>
             </Link>
             <Link href="/About">
-              <li className="hover:text-white hover:underline">About</li>
+              <li className="hover:text-yellow-600 hover:font-bold">About</li>
             </Link>
             <Link href="/Service">
-              <li className="hover:text-white hover:underline">Services</li>
+              <li className="hover:text-yellow-600 hover:font-bold">Services</li>
             </Link>
-            <Link href="/Partner"><li className="hover:text-white hover:underline">Partners</li></Link>
-            <li className="hover:text-white hover:underline">FAQ</li>
+            <Link href="/Partner"><li className="hover:text-yellow-600 hover:font-bold">Partners</li></Link>
+            <li className="hover:text-yellow-600 hover:font-bold">FAQ</li>
          
           <div className="w-full flex justify-center gap-10">
           <Link href="https://www.keenable.in/blog"> <RiLoginBoxFill title="Login" className="text-3xl hover:text-red-700"/></Link>
