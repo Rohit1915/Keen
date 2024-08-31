@@ -3,12 +3,12 @@ import React from 'react'
 function Service() {
   return (
     <div className="bg-[#9db0b1] pt-[4rem] md:pt-[6rem] pb-[5rem]" style={{fontFamily:'fantasy'}}>
-    <h1 className="text-center text-white text-xl md:text-4xl">SERVICES</h1>
+    <h1 className="text-center text-white text-xl md:text-4xl">SERV<span className="text-red-600">ICES </span></h1>
     <p className="mx-5 text-center md:text-center mt-[2rem] text-base md:text-xl text-black">Openly Trying To Exceed Your Expectations</p>
     <div className="grid grid-cols-1 lg:grid-cols-3 w-full items-center gap-[4rem] mt-[4rem] text-black">
   
           <div className="bg-[#a1b6b8]">
-            <img src="sdf.jpeg"
+            <img src="sd.jpeg"
             alt="" />
             <h2 className="text-2xl mx-2 text-center mt-12">SOFTWARE ADVISORY & ARCHITECTING SERVICES</h2>
             <p  className="my-10 text-center mx-7"> Over the years, we have come across many situations where a design mistake has already been made when we are called. It is a very tough situation for a customer and we can totally empathise with it. Should the customer go ahead knowing that there is an issue due to cost, time and other considerations; or should start afresh. There is no easy answer here. But what we have realised is that the software design and architecture should be open and have a building blocks approach to make it last. Our areas of interest here are  </p>
@@ -31,7 +31,7 @@ function Service() {
       
       
         <div className="bg-[#a1b6b8] h-full">
-        <img src="dfs.jpeg"
+        <img src="sb.jpeg"
             alt="" />
             <h2 className="text-2xl mx-2 text-center mt-12">SOFTWARE BUILD & DEPLOYMENT SERVICES</h2>
             <p className="my-10 text-center mx-7"> Once the software design is ready, we have teams to help customers deploy them. We also undertake deployment of software for design done by others. We work equally Our areas of interest and delivery in this area span across</p>
@@ -50,8 +50,7 @@ function Service() {
             
 
       <div className="bg-[#a1b6b8] h-full">
-      <br />
-      <img src="bbb.jpeg"
+      <img src="ms.jpeg"
             alt="" /> 
              <h2 className="text-2xl mx-2 text-center mt-12">MONITORING & SUPPORT SERVICES</h2>
             <p className="my-10 text-center mx-7"> Customers might need additional support after deployments or even monitoring of their critical systems to maintain uptime. Various teams need to be aware of actions required to be taken if any component is not functioning. This requires monitoring of deployments right from hardware level to the application and everything in between. We provide these services to our customers. Some of the areas we address are</p>
