@@ -45,7 +45,7 @@ function Nav() {
             <li className="hover:text-yellow-600 hover:font-bold">Partners</li>
           </Link>
           <li className="hover:text-yellow-600 hover:font-bold">FAQ</li>
-          <Link href="https://www.keenable.in/blog">
+          <Link href="">
             <RiLoginBoxFill
               title="Login"
               className="text-3xl lg:text-4xl hover:text-red-700"
@@ -103,7 +103,7 @@ function Nav() {
               </li>
 
               <div className="flex justify-center gap-8 mt-4">
-                <Link href="https://www.keenable.in/blog" onClick={toggleMenu}>
+                <Link href="" onClick={toggleMenu}>
                   <RiLoginBoxFill
                     title="Login"
                     className="text-3xl hover:text-red-500 transition duration-300"
