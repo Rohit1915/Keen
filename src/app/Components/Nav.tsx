@@ -11,7 +11,6 @@ function Nav() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
   return (
     <div className="w-full bg-[#c5cbd885]" style={{ fontFamily: "fantasy" }}>
       <div className="flex items-center justify-between mx-2">
@@ -63,7 +62,7 @@ function Nav() {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-0 left-0 w-full h-full bg-gray-600 bg-opacity-100 flex justify-center items-center z-50">
+        <div className="absolute top-0 left-0 w-full h-full bg-gray-500 bg-opacity-50 flex justify-center items-center z-50">
           <ul className="bg-gray-700 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-white text-2xl">
             <Link href="/">
               <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
