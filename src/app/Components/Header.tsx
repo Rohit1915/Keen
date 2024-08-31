@@ -4,13 +4,13 @@ import React from "react";
 function Header() {
   return (
     <div className="">
-      <div className="mx-0 md:mx-10 grid-cols-1 grid lg:grid-cols-2 mt-0 md:mt-20" style={{ fontFamily: "fantasy" }}>
+      <div className="mx-0 md:mx-10 grid-cols-1 grid lg:grid-cols-2 mt-0 mb-0 my-2 md:my-20" style={{ fontFamily: "fantasy" }}>
         <div className="bg-[#bebebe] flex flex-col justify-center  items-center ">
           <div className=" text-black flex flex-col  text-center h-full md:h-96 my-16">
             <div>
 
             <h1
-              className="text-3xl mb-10"
+              className="text-2xl md:text-3xl mb-10"
               >
               KEEN AND ABLE
             </h1>
@@ -34,13 +34,11 @@ function Header() {
           </div>
         </div>
 
-        <div className="h-[30rem] md:h-[40rem] bg-white">
-          <div>
+        <div className="h-[30rem] md:h-[40rem] bg-white hidden md:block">
             <img
               className="h-[30rem] md:h-[40rem] w-[100%] "
               src="nfjf.jpeg"
             />
-          </div>
         </div>
       </div>
     </div>

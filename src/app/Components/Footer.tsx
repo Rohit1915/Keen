@@ -12,9 +12,6 @@ function Footer() {
             <p className="mb-1 text-[12px]">All Trademarks and Logos used throughout the site are property of their respective owners</p>
             <p className="mb-1 text-[12px]">All images used on the website have been used courtesy Pixabay.com</p>
         </div>
-        <div>
-        <ImFacebook2 className="bg-black"/>
-        </div>
     </div>
   )
 }
