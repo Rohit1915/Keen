@@ -3,45 +3,32 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="bg-[#bebebe]">
-      <div className=" grid-cols-1 grid lg:grid-cols-2 " style={{ fontFamily: "fantasy" }}>
-        <div className="bg-[#bebebe] flex flex-col justify-center  items-center ">
-          <div className=" text-black flex flex-col  text-center h-full md:h-96 my-16">
-            <div>
-
-            <h1
-              className="text-2xl md:text-3xl mb-6 md:mb-10"
-              >
-              KEEN AND ABLE
-            </h1>
-            <span
-              className="text-xl md:text-2xl"
-              >
-              Doing Business the Open Way
-            </span>
-              </div>
-              <div className="mt-8 mx-10 md:mx-32">
- 
-            <p className="text-sm md:text-lg">
-              Our amazing Open Source journey started in early 2000s. And what a
-              ride it has been. We did not imagine that we would have such
-              widespread adoption and deployment of Open Source technologies
-              over the years. We are happy to have been able to play a bit of
-              role in that adoption by being a fellow traveller with our
-              associates, customers and partners alike
-            </p>
-              </div>
-          </div>
+<div className="bg-[#bebebe]">
+  <div className="grid grid-cols-1 lg:grid-cols-2" style={{ fontFamily: "fantasy" }}>
+    <div className="bg-[#bebebe] flex flex-col justify-center items-center p-5 lg:p-10">
+      <div className="text-black flex flex-col text-center h-full md:h-96 my-16 lg:my-20">
+        <div>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl mb-6 md:mb-10 lg:mb-12">
+            KEEN AND ABLE
+          </h1>
+          <span className="text-xl md:text-2xl lg:text-3xl">
+            Doing Business the Open Way
+          </span>
         </div>
-
-        <div className=" my-7 mx-32 hidden md:block">
-            <img
-              className=" md:h-[30rem] rounded-full"
-              src="nfjf.jpeg"
-            />
+        <div className="mt-8 mx-10 md:mx-32 lg:mx-40">
+          <p className="text-sm md:text-lg lg:text-xl">
+            Our amazing Open Source journey started in the early 2000s. And what a ride it has been. We did not imagine that we would have such widespread adoption and deployment of Open Source technologies over the years. We are happy to have been able to play a bit of a role in that adoption by being a fellow traveler with our associates, customers, and partners alike.
+          </p>
         </div>
       </div>
     </div>
+
+    <div className="my-7 mx-32 lg:mx-10 lg:flex lg:justify-center hidden md:block">
+      <img className="md:h-[30rem] lg:h-[35rem] rounded-full" src="nfjf.jpeg" alt="Keen and Able" />
+    </div>
+  </div>
+</div>
+
   );
 }
 
