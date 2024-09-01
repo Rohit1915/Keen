@@ -125,10 +125,10 @@ function Nav() {
                   Partners
                 </li>
               </Link>
-              <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
+             <Link href="/Faq"> <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                 FAQ
               </li>
-
+              </Link>
               <div className="flex justify-center gap-8 mt-4">
                 <Link href="" onClick={toggleMenu}>
                   <RiLoginBoxFill
