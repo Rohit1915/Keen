@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className="bg-white">
+    <div className="bg-[#E0E0E0]">
   <div className="grid grid-cols-1 mx-auto lg:grid-cols-2">
     <div className="lg:col-span-1">
       <img className="w-full h-auto" src="fotor-ai-2024082818012.jpg" alt="Keen and Able" />
