@@ -3,9 +3,9 @@ import React from "react";
 
 function Header() {
   return (
-<div className="bg-[#bebebe]">
+<div className="bg-[#f0eded]">
   <div className="grid grid-cols-1  lg:grid-cols-2" style={{ fontFamily: "fantasy" }}>
-    <div className="bg-[#bebebe] flex flex-col justify-center items-center p-5 lg:p-10">
+    <div className="bg-[#f5f1f1] flex flex-col justify-center items-center p-5 lg:p-10">
       <div className="text-black flex flex-col text-center h-full md:h-96 my-16 lg:my-20">
         <div>
           <h1 className="text-2xl md:text-3xl lg:text-4xl mb-6 md:mb-10 lg:mb-12">

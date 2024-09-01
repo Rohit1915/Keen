@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className="bg-[#cfdbdb] pt-[4rem] md:pt-[6rem] pb-5 md:pb-[5rem]" style={{ fontFamily: 'fantasy' }}>
+    <div className="bg-[#eef5f5] pt-[4rem] md:pt-[6rem] pb-5 md:pb-[5rem]" style={{ fontFamily: 'fantasy' }}>
   <h1 className="text-center text-black text-[28px] sm:text-[33px] md:text-3xl lg:text-4xl font-bold uppercase">
     OUR <span className="text-yellow-600">SERVICES</span>
   </h1>
