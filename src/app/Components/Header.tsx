@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-<div className="bg-[#f0eded]">
+<div className="bg-white">
   <div className="grid grid-cols-1  lg:grid-cols-2" style={{ fontFamily: "fantasy" }}>
     <div className="bg-[#f5f1f1] flex flex-col justify-center items-center p-5 lg:p-10">
       <div tabIndex={0} className="text-black flex flex-col text-center h-full md:h-96 my-16 lg:my-20">
@@ -21,8 +21,8 @@ function Header() {
       </div> 
     </div>
 
-    <div className="my-7 mx-32 lg:mx-10 lg:block lg:justify-center hidden ">
-      <img className="md:h-[30rem] lg:h-[35rem] rounded-full" src="nfjf.jpeg" alt="Keen and Able" />
+    <div className="my-7 mx-32 lg:mx-28 lg:block lg:justify-center hidden">
+      <img className="md:h-[30rem] lg:h-[35rem]" src="our.jpeg" alt="Keen and Able" />
     </div>
   </div>
 </div>

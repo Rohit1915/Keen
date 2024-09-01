@@ -18,7 +18,7 @@ function Nav() {
   };
 
   return (
-    <div className="w-full bg-white" style={{ fontFamily: "fantasy" }}>
+    <div className="w-full bg-slate-200" style={{ fontFamily: "fantasy" }}>
       <div className="flex items-center justify-between mx-2 lg:mx-10">
         <div className="flex">
           <img src="logo.webp" alt="Logo_KNA.png" className="h-20 lg:h-36 p-1 lg:p-4" />
