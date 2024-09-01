@@ -68,7 +68,7 @@ function Nav() {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-0 left-0 w-full h-full bg-gray-500 bg-opacity-50 flex justify-center items-center z-50">
+        <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-100 flex justify-center items-center z-50">
           <div className="relative w-full max-w-sm mx-auto">
             <button
               onClick={toggleMenu}
@@ -77,7 +77,7 @@ function Nav() {
             >
               &times;
             </button>
-            <ul className="bg-gray-700 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-black text-2xl">
+            <ul className="bg-gray-500 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-black text-2xl">
               <Link href="/" onClick={toggleMenu}>
                 <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                   Home
