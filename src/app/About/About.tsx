@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Main() {
   return (
-    <div className="bg-[#282b29]">
+    <div className="bg-[#282b29] pt-5">
       <div className="grid-cols-1 mx-auto grid lg:grid-cols-2">
         <div>
           <img className="h-full" src="earth-3537401.jpg" alt="" />

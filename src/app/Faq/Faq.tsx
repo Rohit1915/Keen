@@ -9,7 +9,7 @@ import {
 
 function Faq() {
   return (
-    <div className="relative h-full p-8 md:p-16 lg:p-20">
+    <div className="relative h-full md:p-16 lg:pt-52 md:pt-40 p-10 pt-32 px-8 ">
       <video 
         src="mkm.mp4" 
         autoPlay 
@@ -17,7 +17,7 @@ function Faq() {
         muted 
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-40"
       />
-      <div className="relative z-10">
+      <div className="relative z-10"  style={{ fontFamily: "fantasy" }}>
         <Carousel className="mx-4 md:mx-24 lg:mx-96">
           <CarouselContent>
             <CarouselItem>

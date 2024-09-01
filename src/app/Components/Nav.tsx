@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoLocation } from "react-icons/io5";
 import { RiLoginBoxFill } from "react-icons/ri";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -17,12 +18,36 @@ function Nav() {
     }
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="w-full bg-slate-200" style={{ fontFamily: "fantasy" }}>
-      <div className="flex items-center justify-between mx-2 lg:mx-10">
-        <div className="flex">
-          <img src="logo.webp" alt="Logo_KNA.png" className="h-20 lg:h-36 p-1 lg:p-4" />
-          <div className="ml-4 mt-6">
+    <div
+      className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
+        isScrolled ? "bg-slate-700 py-1 lg:py-2" : "bg-transparent py-2 lg:py-4"
+      }`}
+      style={{ fontFamily: "fantasy" }}
+    >
+      <div className="flex items-center justify-between mx-2 lg:mx-10  bg-slate-400">
+        <div className="flex items-center">
+          <img
+            src="logo.webp"
+            alt="Logo_KNA.png"
+            className="h-16 lg:h-28 p-1 lg:p-3"
+          />
+          <div className="ml-4 mt-1 lg:mt-2">
             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-black">
               KEEN AND ABLE
             </h1>
@@ -31,9 +56,9 @@ function Nav() {
             </span>
           </div>
         </div>
-        <ul className="hidden md:flex justify-center items-center gap-4 lg:gap-12 text-lg lg:text-xl mr-10 text-black">
+        <ul className="hidden md:flex justify-center items-center gap-4 lg:gap-12 text-lg lg:text-xl text-black pr-5">
           <Link href="/">
-            <li className="hover:text-yellow-600 hover:font-bold ">Home</li>
+            <li className="hover:text-yellow-600 hover:font-bold">Home</li>
           </Link>
           <Link href="/About">
             <li className="hover:text-yellow-600 hover:font-bold">About</li>
@@ -44,7 +69,9 @@ function Nav() {
           <Link href="/Partner">
             <li className="hover:text-yellow-600 hover:font-bold">Partners</li>
           </Link>
-         <Link href="/Faq"> <li className="hover:text-yellow-600 hover:font-bold">FAQ</li> </Link>
+          <Link href="/Faq">
+            <li className="hover:text-yellow-600 hover:font-bold">FAQ</li>
+          </Link>
           <Link href="">
             <RiLoginBoxFill
               title="Login"
@@ -63,7 +90,7 @@ function Nav() {
         </ul>
 
         <div className="block md:hidden" onClick={toggleMenu}>
-          <GiHamburgerMenu className="text-3xl text-black" />
+          <GiHamburgerMenu className="text-3xl text-white" />
         </div>
       </div>
 
@@ -72,7 +99,7 @@ function Nav() {
           <div className="relative w-full max-w-sm mx-auto">
             <button
               onClick={toggleMenu}
-              className="absolute top-4 right-4 text-white text-3xl font-bold"
+              className="absolute top-4 right-4 text-black text-3xl font-bold"
               aria-label="Close menu"
             >
               &times;
