@@ -90,7 +90,7 @@ function Nav() {
         </ul>
 
         <div className="block md:hidden" onClick={toggleMenu}>
-          <GiHamburgerMenu className="text-3xl text-white" />
+          <GiHamburgerMenu className="text-4xl text-black pr-2" />
         </div>
       </div>
 

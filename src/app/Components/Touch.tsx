@@ -2,7 +2,7 @@ import React from 'react'
 
 function Touch() {
   return (
-    <div className="bg-[#bfe3f1] md:pt-[2rem] pb-5 md:pb-[5rem]">
+    <div className="bg-[#bee0ee] md:pt-[2rem] pb-5 md:pb-[5rem]">
   <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 md:mt-10 border-none gap-5 lg:gap-10">
     <div tabIndex={0} className="text-black text-center lg:text-left md:w-[60%] lg:w-[80%] flex flex-col justify-center mx-auto" style={{ fontFamily: 'fantasy' }}>
       <h2 className="my-7 text-2xl md:text-3xl lg:text-4xl">GET IN TOUCH</h2>
