@@ -95,7 +95,7 @@ function Nav() {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-100 flex justify-center items-center z-50">
+        <div className="left-0 w-full h-full bg-white bg-opacity-100 flex justify-center items-center z-50">
           <div className="relative w-full max-w-sm mx-auto">
             <button
               onClick={toggleMenu}
