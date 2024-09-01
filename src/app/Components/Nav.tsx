@@ -77,7 +77,7 @@ function Nav() {
             >
               &times;
             </button>
-            <ul className="bg-gray-500 text-center flex flex-col gap-4 p-20 rounded-md shadow-lg text-black text-2xl">
+            <ul className="bg-gray-400 text-center h-full flex flex-col gap-4 p-20 rounded-md shadow-lg text-black text-2xl">
               <Link href="/" onClick={toggleMenu}>
                 <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                   Home
