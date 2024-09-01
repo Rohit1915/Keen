@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
   return (
     <div className="bg-[#eef5f5] pt-[4rem] md:pt-[6rem] pb-5 md:pb-[5rem]" style={{ fontFamily: 'fantasy' }}>
-  <h1 className="text-center text-black text-[28px] sm:text-[33px] md:text-3xl lg:text-4xl font-bold uppercase">
+  <h1 tabIndex={0} className="text-center text-black text-[28px] sm:text-[33px] md:text-3xl lg:text-4xl font-bold uppercase">
     OUR <span className="text-yellow-600">SERVICES</span>
   </h1>
   <p className="mx-5 text-center mt-[2rem] text-base md:text-xl lg:text-2xl text-black">
@@ -17,7 +17,7 @@ function Services() {
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto items-center gap-5 md:gap-[4rem] lg:gap-[2rem] mt-5 md:mt-[4rem] text-black">
     <div>
-      <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem] lg:h-[28rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem] lg:h-[28rem]">
         <h2 className="text-xl lg:text-2xl">ARCHITECTING</h2>
         <img src="aac.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Architecting" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">
@@ -27,7 +27,7 @@ function Services() {
     </div>
 
     <div>
-      <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[25.5rem] lg:h-[28rem] text-center p-[1rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[25.5rem] lg:h-[28rem] text-center p-[1rem]">
         <h2 className="text-xl lg:text-2xl">DEPLOYMENT</h2>
         <img src="ggg.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Deployment" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">
@@ -37,7 +37,7 @@ function Services() {
     </div>
 
     <div>
-      <div className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[24rem] lg:h-[28rem] text-center p-[1rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[24rem] lg:h-[28rem] text-center p-[1rem]">
         <h2 className="text-xl lg:text-2xl">SUPPORT</h2>
         <img src="eee.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Support" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">

@@ -7,7 +7,7 @@ function Partner() {
       <div className="my-16">
         <img className="" src="pngwing.com.png" alt="" />
       </div>
-      <div className=" text-black flex flex-col h-full my-20 mx-8 md:h-full md:my-40 "style={{fontFamily:'fantasy'}}>
+      <div tabIndex={0} className=" text-black flex flex-col h-full my-20 mx-8 md:h-full md:my-40 "style={{fontFamily:'fantasy'}}>
       <h1 className=" text-3xl md:mx-40 mb-10 text-center " >
           
            PARTNERS

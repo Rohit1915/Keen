@@ -11,7 +11,9 @@ function Footer() {
        <Link href="https://www.linkedin.com/company/keenable" target="_blank"> <IoLogoLinkedin className="text-[1.6rem] md:text-[2.8rem]" /> </Link>
       </div>
       <div className="text-white text-center mt-0">
-        <p className="mb-2 mt-3">+91 120 421 7213</p>
+      <p className="mb-2 mt-3">
+       <a href="tel:+911204217213">+91 120 421 7213</a>
+        </p>
         <p className="mb-2">sales@keenable.in</p>
         <p className="mb-7">
           B149, Ground Floor, Sector 63, Noida, India - 201301

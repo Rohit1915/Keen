@@ -7,7 +7,7 @@ function Main() {
     <div className="lg:col-span-1">
       <img className="w-full h-auto" src="fotor-ai-2024082818012.jpg" alt="Keen and Able" />
     </div>
-    <div className="text-black flex flex-col h-full my-5 mx-3 md:mx-10 lg:my-20 lg:mx-16" style={{ fontFamily: 'fantasy' }}>
+    <div tabIndex={0} className="text-black flex flex-col h-[80%] my-5 mx-3 md:mx-10 lg:my-20 lg:mx-16" style={{ fontFamily: 'fantasy' }}>
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:mx-20">
         MORE ABOUT KEEN AND ABLE
       </h1>

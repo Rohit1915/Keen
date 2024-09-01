@@ -33,7 +33,7 @@ function Nav() {
         </div>
         <ul className="hidden md:flex justify-center items-center gap-4 lg:gap-12 text-lg lg:text-xl mr-10 text-black">
           <Link href="/">
-            <li className="hover:text-yellow-600 hover:font-bold">Home</li>
+            <li className="hover:text-yellow-600 hover:font-bold ">Home</li>
           </Link>
           <Link href="/About">
             <li className="hover:text-yellow-600 hover:font-bold">About</li>

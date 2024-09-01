@@ -7,7 +7,7 @@ function Service() {
     <p className="mx-5 text-center md:text-center mt-[2rem] text-base md:text-xl text-black">Openly Trying To Exceed Your Expectations</p>
     <div className="grid grid-cols-1 lg:grid-cols-3 w-full items-center gap-[4rem] mt-[4rem] text-black">
   
-          <div className="bg-[#a1b6b8]">
+          <div tabIndex={0} className="bg-[#a1b6b8]">
             <img src="sd.jpeg"
             alt="" />
             <h2 className="text-2xl mx-2 text-center mt-12">SOFTWARE ADVISORY & ARCHITECTING SERVICES</h2>
@@ -30,7 +30,7 @@ function Service() {
           </div>
       
       
-        <div className="bg-[#a1b6b8] h-full">
+        <div tabIndex={0} className="bg-[#a1b6b8] h-full">
         <img src="sb.jpeg"
             alt="" />
             <h2 className="text-2xl mx-2 text-center mt-12">SOFTWARE BUILD & DEPLOYMENT SERVICES</h2>
@@ -49,7 +49,7 @@ function Service() {
             </div>
             
 
-      <div className="bg-[#a1b6b8] h-full">
+      <div tabIndex={0} className="bg-[#a1b6b8] h-full">
       <img src="ms.jpeg"
             alt="" /> 
              <h2 className="text-2xl mx-2 text-center mt-12">MONITORING & SUPPORT SERVICES</h2>
