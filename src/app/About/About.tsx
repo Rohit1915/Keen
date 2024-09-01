@@ -8,7 +8,7 @@ function Main() {
         <div>
           <img className="h-full" src="earth-3537401.jpg" alt="" />
         </div>
-        <div tabIndex={0} className="text-white flex flex-col h-full my-20 mx-10 md:h-96 md:my-40">
+        <div tabIndex={0} className="text-white flex flex-col h-full my-20 mx-10 md:h-96 md:my-32">
           <h1 className="text-3xl md:mx-40" style={{ fontFamily: 'fantasy' }}>
             OUR BACKGROUND
           </h1>
