@@ -6,7 +6,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 function Footer() {
   return (
     <div className="bg-gray-900 py-2 md:py-[2rem]">
-      <div className="ml-72 md:ml-28 flex">
+      <div className="ml-72 md:ml-28 flex text-white">
        <Link href="https://www.facebook.com/Alwaysbeenopen/" target="_blank"> <ImFacebook2 className="mr-4 text-3xl md:text-4xl" /> </Link>
        <Link href="https://www.linkedin.com/company/keenable" target="_blank"> <IoLogoLinkedin className="text-[2rem] md:text-[2.8rem]" /> </Link>
       </div>

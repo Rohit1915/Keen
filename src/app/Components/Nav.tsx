@@ -44,7 +44,7 @@ function Nav() {
           <Link href="/Partner">
             <li className="hover:text-yellow-600 hover:font-bold">Partners</li>
           </Link>
-          <li className="hover:text-yellow-600 hover:font-bold">FAQ</li>
+         <Link href="/Faq"> <li className="hover:text-yellow-600 hover:font-bold">FAQ</li> </Link>
           <Link href="">
             <RiLoginBoxFill
               title="Login"
