@@ -49,7 +49,7 @@ function Faq() {
                   CAN I DEPLOY OPEN SOURCE SOFTWARE MYSELF?
                   </h1>
                   <p className="text-xs md:text-sm lg:text-lg text-center md:mx- lg:mx-14 text-white">
-                  Of course! If you have spare time then you seriously you do not need us. That is the whole beauty of Open Source. Our only value add is is that we help deliver your job while you concentrate on your business. Additionally, with our service bouquet, we can bring in some best practices that we have learnt the hard way over the years, some nuggets of hacks for your teams and of course manpower to help share your workload.
+                  Of course! If you have spare time then you seriously you do not need us. That is the whole beauty of Open Source. Our only value add is that we help deliver your job while you concentrate on your business. Additionally, with our service bouquet, we can bring in some best practices that we have learnt the hard way over the years, some nuggets of hacks for your teams and of course manpower to help share your workload.
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ function Faq() {
                    WHAT IF I DEPLOY MYSELF AND FACE CHALLENGE LATER?
                   </h1>
                   <p className="text-xs md:text-sm lg:text-lg text-center md:mx-5 lg:mx-20 text-white">
-                  We are available to help in all phases of your Open Source journey. We would definitely like to sit with you and discuss your aspirations and business goals before we engage but don't worry. We have your backs covered.
+                  We are available to help in all phases of your Open Source journey. We would definitely like to sit with you and discuss your aspirations and business goals before we engage but dont worry. We have your backs covered.
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ function Faq() {
                   IS OPEN SOURCE SUSTAINABLE?
                   </h1>
                   <p className="text-xs md:text-sm lg:text-lg text-center md:mx-5 lg:mx-20 text-black">
-                  When properly deployed, Open Source can help bring in flexibility and agility. It is also easier to incorporate unplanned or unforseen future changes - in either technology or roadmaps. 
+                  When properly deployed, Open Source can help bring in flexibility and agility. It is also easier to incorporate unplanned or unforeseen future changes - in either technology or roadmaps. 
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ function Faq() {
                   WHO WILL SUPPORT MY OPEN SOURCE DEPLOYMENT IF KNA IS NOT AVAILABLE TOMORROW?
                   </h1>
                   <p className="text-xs md:text-sm lg:text-lg text-center md:mx-5 lg:mx-20 text-white">
-                  Ideally, the best way forward is to develop and maintain your own small team of resources to take care of day to day tasks and CRs. 100% dependence on external resources is not recommended.
+                  Ideally, the best way forward is to develop and maintain your own small team of resources to take care of day-to-day tasks and CRs. 100% dependence on external resources is not recommended.
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ function Faq() {
                   ARE OPEN SOURCE DEPLOYMENTS COMPLEX?
                   </h1>
                   <p className="text-xs md:text-sm lg:text-lg text-center md:mx-5 lg:mx-20 text-white">
-                  With such a lot of help available on net and large enterprises having already adopting Open Source, this does not hold true any longer. It depends on your perception. If having a building block approach with customisable options as per your choice bothers you as compared to deploying a proprietary and non-flexible code the you might like to choose closed source software
+                  With such a lot of help available on net and large enterprises having already adopting Open Source, this does not hold true any longer. It depends on your perception. If having a building block approach with customizable options as per your choice bothers you as compared to deploying a proprietary and non-flexible code, then you might like to choose closed source software.
                   </p>
                 </div>
               </div>
