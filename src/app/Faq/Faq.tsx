@@ -141,10 +141,10 @@ function Faq() {
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious
-        className='lg:w-16 lg:h-16 lg:ml-16 md:ml-16 text-3xl bg-red-500 lg:bg-slate-400 md:lg:bg-slate-400 hover:bg-orange-600 flex items-center justify-center rounded-full'
+        className='lg:w-16 lg:h-16 lg:ml-16 md:ml-16 text-3xl bg-slate-600 lg:bg-slate-400 md:lg:bg-slate-400 hover:bg-orange-600 flex items-center justify-center rounded-full'
         />
         <CarouselNext
-       className='lg:w-16 lg:h-16 lg:mr-16 md:mr-16 text-3xl bg-red-500 lg:bg-slate-400 md:lg:bg-slate-400 hover:bg-orange-600 flex items-center justify-center rounded-full'
+       className='lg:w-16 lg:h-16 lg:mr-16 md:mr-16 text-3xl bg-slate-600 lg:bg-slate-400 md:lg:bg-slate-400 hover:bg-orange-600 flex items-center justify-center rounded-full'
          />
 
         </Carousel>
