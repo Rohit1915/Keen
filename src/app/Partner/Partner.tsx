@@ -2,7 +2,7 @@ import React from 'react';
 
 function Partner() {
   return (
-    <div className=" bg-[#e4dcdc] lg:pt-20 pt-10">
+    <div className=" bg-[#e4dcdc] lg:pt-20 pt-10 lg:mt-32 md:mt-20 mt-20">
       <div className=" grid-cols-1 mx-auto grid lg:grid-cols-2">
       <div className="my-16">
         <img className="" src="pngwing.com.png" alt="" />

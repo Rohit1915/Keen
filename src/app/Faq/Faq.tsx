@@ -9,7 +9,7 @@ import {
 
 function Faq() {
   return (
-    <div className="relative h-full md:p-16 lg:pt-52 md:pt-40 p-10 pt-32 px-8 ">
+    <div className="relative md:p-16 lg:pt-52 md:pt-40 p-10 pt-32 px-8 lg:mt-32 md:mt-20 mt-20">
       <video 
         src="mkm.mp4" 
         autoPlay 

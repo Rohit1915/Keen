@@ -36,11 +36,11 @@ function Nav() {
   return (
     <div
       className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-slate-700 py-1 lg:py-2" : "bg-transparent py-2 lg:py-4"
+        isScrolled ? "bg-slate-400 py-1 lg:py-2" : "bg-transparent py-2 lg:py-4"
       }`}
       style={{ fontFamily: "fantasy" }}
     >
-      <div className="flex items-center justify-between mx-2 lg:mx-10  bg-slate-400">
+      <div className="flex items-center justify-between mx-2 lg:mx-10">
         <div className="flex items-center">
           <img
             src="logo.webp"
@@ -48,10 +48,10 @@ function Nav() {
             className="h-16 lg:h-28 p-1 lg:p-3"
           />
           <div className="ml-4 mt-1 lg:mt-2">
-            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-black">
+            <h1 className="text-base md:text-2xl lg:text-3xl text-black">
               KEEN AND ABLE
             </h1>
-            <span className="text-black text-sm md:text-lg lg:text-xl">
+            <span className="text-black text-xs md:text-lg lg:text-xl">
               Always Been Open!
             </span>
           </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="relative bg-white mt-0 md:mt-20 lg:mt-36 ">
+    <div className="relative bg-white mt-20 md:mt-20 lg:mt-36">
       <img 
         src="banner-1058142.jpg" 
         alt="" 
