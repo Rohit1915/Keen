@@ -11,7 +11,7 @@ function Header() {
       />
       <div className="relative grid grid-cols-1 lg:grid-cols-2" style={{ fontFamily: "fantasy" }}>
         <div className=" flex flex-col justify-center items-center p-5 lg:p-10 relative z-10">
-          <div tabIndex={0} className="text-black flex flex-col text-center h-full md:h-96 my-16 lg:my-20">
+          <div tabIndex={0} className="text-black flex flex-col text-center h-full md:h-96 my-6 lg:my-20">
             <h1 className="text-2xl md:text-3xl lg:text-4xl mb-6 md:mb-10 lg:mb-12">
               KEEN AND ABLE
             </h1>
