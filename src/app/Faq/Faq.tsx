@@ -17,7 +17,7 @@ function Faq() {
         muted 
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-40"
       />
-      <div className="relative z-10"  style={{ fontFamily: "fantasy" }}>
+      <div className="relative"  style={{ fontFamily: "fantasy" }}>
         <Carousel className="mx-4 md:mx-24 lg:mx-96">
           <CarouselContent>
             <CarouselItem>
