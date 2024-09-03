@@ -4,15 +4,10 @@ function Main() {
   return (
     <div className="bg-[#E0E0E0]">
   <div className="grid grid-cols-1 mx-auto lg:grid-cols-2">
-    <div className="lg:col-span-1">
-      <img className="w-full h-auto" src="fotor-ai-2024082818012.jpg" alt="Keen and Able" />
-    </div>
+   <img className="w-full h-full hidden lg:block" src="IMG_20240903_123909.jpg" alt="" />
+    
     <div className="relative h-[80%] my-16 mx-5 md:mx-8 md:my-12 lg:my-20 lg:mx-16" style={{ fontFamily: 'fantasy' }}>
-  <img 
-    src="tt.jpg" 
-    alt="" 
-    className="absolute inset-0 w-full h-full object-cover z-0"
-  />
+  
   <div className="relative text-black z-10 flex flex-col justify-center h-full p-4">
     <h1 className="text-2xl md:text-3xl lg:text-4xl lg:mx-20">
       MORE ABOUT KEEN AND ABLE
