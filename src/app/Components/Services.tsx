@@ -35,7 +35,7 @@ function Services() {
     </div>
 
     <div>
-      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[24rem] lg:h-[28rem] text-center p-[1rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[27rem] lg:h-[28rem] text-center p-[1rem]">
         <h2 className="text-xl lg:text-2xl">SUPPORT</h2>
         <img src="sr.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Support" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">
