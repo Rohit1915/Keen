@@ -110,17 +110,17 @@ function Nav() {
                   Home
                 </li>
               </Link>
-              <Link href="/About" onClick={toggleMenu}>
+              <Link href="/About">
                 <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                   About
                 </li>
               </Link>
-              <Link href="/Service" onClick={toggleMenu}>
+              <Link href="/Service" >
                 <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                   Services
                 </li>
               </Link>
-              <Link href="/Partner" onClick={toggleMenu}>
+              <Link href="/Partner">
                 <li className="hover:text-yellow-500 hover:font-bold transition duration-300">
                   Partners
                 </li>
@@ -130,7 +130,7 @@ function Nav() {
               </li>
               </Link>
               <div className="flex justify-center gap-8 mt-4">
-                <Link href="" onClick={toggleMenu}>
+                <Link href="" >
                   <RiLoginBoxFill
                     title="Login"
                     className="text-3xl hover:text-red-500 transition duration-300"
@@ -139,7 +139,6 @@ function Nav() {
                 <Link
                   href="https://www.google.com/maps/place/Keen+%26+Able+Computers+Private+Limited/@28.615043,77.377373,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce5600e9000bf:0x5195188f982b98a9!8m2!3d28.615043!4d77.377373!16s%2Fg%2F11c2j6_xp9?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
-                  onClick={toggleMenu}
                 >
                   <IoLocation
                     title="Location"
