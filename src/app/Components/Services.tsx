@@ -16,18 +16,16 @@ function Services() {
   </div>
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto items-center gap-5 md:gap-[4rem] lg:gap-[2rem] mt-5 md:mt-[4rem] text-black">
-    <div>
-      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem] lg:h-[28rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 text-center p-[1rem] md:h-[27rem] lg:h-[28rem]">
         <h2 className="text-xl lg:text-2xl">ARCHITECTING</h2>
         <img src="ah.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Architecting" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">
           A well thought out architecture helps our customers be in control of their deployments long after we complete our work. With our experience of working with varied customer scenarios across the world, we provide software architecting services to help design the software keeping the bigger picture in mind.
         </p>
-      </div>
     </div>
 
     <div>
-      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[25.5rem] lg:h-[28rem] text-center p-[1rem]">
+      <div tabIndex={0} className="bg-slate-400 md:bg-[#ddafa7] md:hover:scale-110 transform transition-all duration-300 hover:-rotate-10 md:h-[27rem] lg:h-[28rem] text-center p-[1rem]">
         <h2 className="text-xl lg:text-2xl">DEPLOYMENT</h2>
         <img src="dv.jpeg" className="h-[8rem] md:h-[10rem] lg:h-[12rem] mx-auto mt-4 lg:mt-6" alt="Deployment" />
         <p className="text-sm md:text-base lg:text-lg mt-4 lg:mt-6">
